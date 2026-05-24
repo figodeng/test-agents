@@ -1,0 +1,20 @@
+{
+  "name": "intention-agent",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/agent.ts"
+  },
+  "dependencies": {
+    "@langchain/openai": "^1.0.2",
+    "dotenv": "^16.5.0",
+    "langchain": "^1.0.6",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
